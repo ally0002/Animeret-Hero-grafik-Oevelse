@@ -24,3 +24,30 @@
 @layer utilities{
   
 }
+
+
+  /*Animation på billede */
+.animate__swing {
+	-webkit-animation: animate_swing 2s linear infinite both;
+	        animation: animate_swing 2s linear infinite both;
+}
+
+.animate__fadeInUp {
+  -webkit-animation: animate_fadeInUp 5s linear infinite both;
+          animation: animate_fadeInUp 5s linear infinite both;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Rubik Mono One', sans-serif;
+  }
+}
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+    .rubik-mono-one {
+        font-family: 'Rubik Mono One', sans-serif;
+    }
